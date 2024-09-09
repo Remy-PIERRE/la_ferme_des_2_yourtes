@@ -1,0 +1,36 @@
+{
+    "home_carrousel": [
+        {
+            "id": 1,
+            "image": "mouton_portrait.jpg",
+            "title": "Titre Carrousel 1",
+            "description": "Description carrousel 1",
+            "cta": {
+                "text": "Vers la boutique",
+                "page": "/boutique"
+            }
+        },
+        {
+            "id": 2,
+            "image": "sheep_2.jpg",
+            "title": "Titre Carrousel 2",
+            "description": "Description carrousel 2",
+            "cta": {
+                "text": "A propos",
+                "page": "/a-propos"
+            }
+        },
+        {
+            "id": 3,
+            "image": "sheep_3.jpg",
+            "title": "Titre Carrousel 3",
+            "description": "Description carrousel 3"
+        }
+    ],
+    "filters_categories": [
+        "type",
+        "matieres",
+        "ensemble",
+        "test"
+    ]
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Le travail à la ferme",
+        "decoration": [
+            "textile.png",
+            "textile-decoratif.png"
+        ],
+        "image": "yourte.webp",
+        "text": [
+            "Notre petite exploitation agricole est nichée au cœur de la campagne, où chaque jour est consacré à la passion de l'agriculture et de l'élevage. Nous nous spécialisons dans l'élevage de moutons pour leur laine, une ressource précieuse que nous transformons en textile de haute qualité. De l'entretien des pâturages à la tonte des moutons, chaque étape est réalisée avec soin et respect de la nature, pour garantir des produits authentiques et durables."
+        ]
+    },
+    {
+        "title": "Des moutons pas comme les autres",
+        "decoration": [
+            "textile.png",
+            "textile-decoratif.png"
+        ],
+        "image": "mouton_portrait.jpg",
+        "text": [
+            "Nos moutons ne sont pas de simples animaux de ferme, ils sont au cœur de notre activité et de notre savoir-faire. Chaque mouton est élevé avec attention, bénéficiant d'une alimentation saine et d'un environnement propice à leur bien-être. Leur laine, douce et résistante, est récoltée avec des techniques traditionnelles, puis transformée en textiles que nous sommes fiers de proposer à nos clients."
+        ]
+    },
+    {
+        "title": "La famille avant tout",
+        "decoration": [
+            "textile.png",
+            "textile-decoratif.png"
+        ],
+        "image": "famille_ferme.jpg",
+        "text": [
+            "Notre ferme est avant tout une aventure familiale. Transmise de génération en génération, elle incarne des valeurs de solidarité et de respect. Chaque membre de la famille contribue à la vie de l'exploitation, apportant ses compétences et sa passion. Nous croyons fermement que le travail en famille renforce la qualité de nos produits et la satisfaction de nos clients."
+        ]
+    },
+    {
+        "title": "Une ferme pédagogique",
+        "decoration": [
+            "textile.png",
+            "textile-decoratif.png"
+        ],
+        "image": "sheep_3.jpg",
+        "text": [
+            "Nous aimons partager notre amour de la nature et de l'agriculture avec les autres. C'est pourquoi nous proposons des visites pédagogiques de la ferme. Ces moments privilégiés permettent aux visiteurs de découvrir notre quotidien, d'approcher nos animaux et d'apprendre les secrets de la transformation de la laine. Que ce soit pour les écoles, les familles ou les curieux, nos portes sont toujours ouvertes pour une expérience enrichissante et authentique."
+        ]
+    }
+]

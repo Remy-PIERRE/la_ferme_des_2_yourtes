@@ -1,0 +1,124 @@
+[
+	{
+		"id": 1,
+		"title": "Magnifique titre de qualité",
+		"description": "Ceci est un test.",
+		"description_long": "Découvrez notre pull en laine 100% biologique, produit et tricoté avec soin au sein de notre ferme familiale. Chaque fibre de laine provient de nos moutons élevés dans le respect de la nature, sans pesticides ni produits chimiques. Ce pull doux et confortable vous apporte chaleur et style, tout en respectant l'environnement. Parfait pour les journées fraîches, il est disponible en plusieurs coloris naturels. En choisissant ce pull, vous soutenez une production artisanale et durable.",
+		"description_2": ["Écheveau 100gr", "Laine 2 brins 350m/100gr", "Aiguilles 3,5 à 4 et plus"],
+		"composition": ["40% brebis wensleydale", "40% brebis mérinos de bourgogne et arles", "20% lapins angora"],
+		"teintures": ["label GOTS 'Greener Shade',composition personnelle.( non reproductible)"],
+		"lavage": ["Lavage à la main", "Machine 20°c( programme laine),essorage 400 tours maxi,séchage à plat.lessive liquide type shampoings"],
+		"disponibilite": ["400gr"],
+		"price": 22.00,
+		"price_details": ["1 écheveau : 22.00€", "4 écheveaux : frais de port offerts"],
+		"image": "mouton_portrait.jpg",
+		"images": ["mouton_portrait.jpg", "product_1.png","product_2.png", "product_3.png"],
+		"fav": true,
+		"type": "pull",
+		"matieres": [
+			"laine"
+		],
+		"genders": ["children", "men"]
+	},
+	{
+		"id": 2,
+		"title": "titre 2",
+		"description":
+			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis commodi eaque ipsum rem, doloremque ut.",
+		"image": "sheep_2.jpg",
+		"fav": true,
+		"type": "pull",
+		"matieres": [
+			"laine",
+			"coton"
+		]
+	},
+	{
+		"id": 3,
+		"title": "titre 3",
+		"description": "description 3",
+		"image": "famille_ferme.jpg",
+		"fav": true,
+		"type": "robe",
+		"matieres": [
+			"coton"
+		]
+	},
+	{
+		"id": 4,
+		"title": "titre 4",
+		"description": "description 4",
+		"image": "sheep_3.jpg",
+		"fav": true,
+		"type": "robe",
+		"matieres": [
+			"feutre"
+		],
+		"ensemble": "chemise & jupe",
+		"genders": ["women"]
+	},
+	{
+		"id": 5,
+		"title": "titre 4",
+		"description": "description 4",
+		"image": "saison.png",
+		"fav": true,
+		"type": "bonnet",
+		"matieres": [
+			"laine",
+			"feutre"
+		],
+		"ensemble": "bonnet & echarpe"
+	},
+	{
+		"id": 6,
+		"title": "titre 4",
+		"description": "description 4",
+		"image": "spring.png",
+		"fav": true,
+		"type": "bonnet",
+		"matieres": [
+			"laine",
+			"feutre",
+			"coton"
+		],
+		"ensemble": "bonnet & echarpe"
+	},
+	{
+		"id": 7,
+		"title": "titre 4",
+		"description": "description 4",
+		"image": "summer.png",
+		"fav": true,
+		"type": "chaussettes",
+		"matieres": [
+			"coton",
+			"feutre"
+		]
+	},
+	{
+		"id": 8,
+		"title": "titre 4",
+		"description": "description 4",
+		"image": "yourte.webp",
+		"fav": true,
+		"type": "chaussettes",
+		"matieres": [
+			"soie"
+		]
+	},
+	{
+		"id": 9,
+		"title": "titre 4",
+		"description": "description 4",
+		"image": "winter.png",
+		"fav": true,
+		"type": "chemisier",
+		"matieres": [
+			"soie",
+			"coton"
+		],
+		"ensemble": "chemise & jupe",
+		"genders": ["women"]
+	}
+]
