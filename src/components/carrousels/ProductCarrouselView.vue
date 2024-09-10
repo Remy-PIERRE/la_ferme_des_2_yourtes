@@ -50,6 +50,7 @@ function handleSelectImage(index) {
 <style scoped>
 .carrousel--wrapper {
     width: 100%;
+    max-height: 600px;
     margin-bottom: 32px;
 }
 
@@ -71,7 +72,7 @@ function handleSelectImage(index) {
     img {
         width: 100%;
         height: 100%;
-        object-fit: fill;
+        object-fit: contain;
         transition: opacity 0.5s;
 
         &.transition {
