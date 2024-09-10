@@ -1,7 +1,10 @@
 <script setup>
+import SectionTitleView from "../titles/SectionTitleView.vue";
 import ProductCaractView from './ProductCaractView.vue';
 
 // SETTINGS //
+const sectionTitle = "En détails";
+const sectionImages = ["textile-decoratif.png", "textile.png"];
 const caracts = [
     {
         title: "Description",
@@ -36,7 +39,8 @@ const { product } = props;
 
 <template>
     <section class="productDescription--wrapper">
-        <h2 class="productDescription--title">{{ product.title }}</h2>
+        <!-- <h2 class="productDescription--title">{{ product.title }}</h2> -->
+        <SectionTitleView :title="sectionTitle" :images="sectionImages" />
 
         <div class="productDescription--description">
             <p>{{ product.description_long }}</p>
@@ -81,7 +85,14 @@ const { product } = props;
 
     .productDescription--description {
         font-size: 1.4rem;
-        margin-bottom: 32px;
+        margin-bottom: 60px;
+    }
+
+    .productDescription--caracts {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 40px;
+        margin-bottom: 60px;
     }
 }
 </style>

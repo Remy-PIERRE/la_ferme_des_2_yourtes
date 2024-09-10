@@ -157,7 +157,7 @@ export default createStore({
 				const productsType = state.products.filter(
 					(p) => p.type === productCurrent.type && +p.id !== +productCurrent.id
 				);
-				console.log("productsType : ", productsType);
+
 				if (productsType.length > 0) {
 					const productType =
 						productsType[Math.floor(Math.random() * productsType.length)];

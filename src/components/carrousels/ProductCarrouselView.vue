@@ -32,7 +32,7 @@ function handleSelectImage(index) {
     <section class="carrousel--container container" v-if="product.images">
         <div class="carrousel--wrapper">
             <div class="carrousel--cache">
-                <div class="carrousel--sections" >
+                <div class="carrousel--section" >
                     <img :src="'/images/' + product.images[imageSelectedRef]" :alt="product.description" :class="isInTransition && 'transition'"  />
                 </div>
             </div>
@@ -55,18 +55,18 @@ function handleSelectImage(index) {
 
 .carrousel--cache {
     width: 100%;
-    aspect-ratio: 3 / 2;
     border-radius: 4px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     position: relative;
     overflow: hidden;
 }
 
-.carrousel--sections {
+.carrousel--section {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     img {
         width: 100%;
@@ -82,7 +82,7 @@ function handleSelectImage(index) {
 
 .carrousel--resume {
     width: 100%;
-    height: 80px;
+    height: 100px;
     margin-top: 20px;
     padding: 12px 0;
     display: flex;
@@ -100,21 +100,37 @@ function handleSelectImage(index) {
 }
 
 @media (min-width: 976px) {
+    .carrousel--wrapper {
+        border-right: 1px solid #333;
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .carrousel--section {
+        border-right: 1px solid #333;
+        padding-right: 20px;
+    }
+
+    .carrousel--cache {
+        box-shadow: none;
+    }
+
     .carrousel--resume {
-    width: 100%;
-    height: 160px;
-    margin-top: 20px;
-    padding: 12px 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
+        width: 200px;
+        height: 100%;
+        margin-top: 0;
+        padding: 12px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        border-top: none;
+        border-bottom: none;
 
     img {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
         object-fit: fill;
     }
 }

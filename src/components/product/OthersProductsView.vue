@@ -1,17 +1,20 @@
 <script setup>
+import SectionTitleView from "../titles/SectionTitleView.vue";
 import ProductCardView from '../cards/ProductCardView.vue';
+
+// SETTINGS //
+const sectionTitle = "Produits similaires";
+const sectionImages = ["textile-decoratif.png", "textile.png"];
 
 // PROPS && HANDLERS //
 const props = defineProps(["othersProducts"]);
 const othersProducts = props.othersProducts;
 
-console.log("othersProducts : ", othersProducts.map(p => p.id));
-
 </script>
 
 <template>
     <section class="othersProducts--wrapper wrapper">
-        <h2 class="othersProducts--title">Autres produits</h2>
+        <SectionTitleView :title="sectionTitle" :images="sectionImages" />
 
         <div class="othersProducts--grid">
             <ProductCardView v-for="product of othersProducts" :product/>

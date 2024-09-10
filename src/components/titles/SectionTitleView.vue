@@ -31,6 +31,7 @@ const props = defineProps(["title", "images"]);
 
     h2 {
         width: fit-content;
+        max-width: 70%;
         font-size: 1.6rem;
         font-weight: bold;
         color: #333;
@@ -39,7 +40,7 @@ const props = defineProps(["title", "images"]);
     }
 
     img {
-        width: 32px;
+        width: 24px;
         height: auto;
     }
 }
@@ -51,6 +52,10 @@ const props = defineProps(["title", "images"]);
         h2 {
             font-size: 2rem;
         }
+
+        img {
+        width: 32px;
+    }
     }
 }
 </style>

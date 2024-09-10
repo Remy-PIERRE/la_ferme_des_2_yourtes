@@ -1,9 +1,9 @@
 [
 	{
 		"id": 1,
-		"title": "Magnifique titre de qualité",
-		"description": "Ceci est un test.",
-		"description_long": "Découvrez notre pull en laine 100% biologique, produit et tricoté avec soin au sein de notre ferme familiale. Chaque fibre de laine provient de nos moutons élevés dans le respect de la nature, sans pesticides ni produits chimiques. Ce pull doux et confortable vous apporte chaleur et style, tout en respectant l'environnement. Parfait pour les journées fraîches, il est disponible en plusieurs coloris naturels. En choisissant ce pull, vous soutenez une production artisanale et durable.",
+		"title": "Écheveau 100gr",
+		"description": "Écheveaux de laine biologique, non teintée, artisanale.",
+		"description_long": "Ce lot de 4 écheveaux de laine biologique (400g) provient d'une petite production familiale, respectueuse de l'environnement. Chaque écheveau est filé artisanalement à la main, garantissant une qualité exceptionnelle. Non teintée, cette laine naturelle et douce est idéale pour vos projets tricot ou crochet, tout en soutenant des pratiques éthiques et durables.",
 		"description_2": ["Écheveau 100gr", "Laine 2 brins 350m/100gr", "Aiguilles 3,5 à 4 et plus"],
 		"composition": ["40% brebis wensleydale", "40% brebis mérinos de bourgogne et arles", "20% lapins angora"],
 		"teintures": ["label GOTS 'Greener Shade',composition personnelle.( non reproductible)"],
@@ -11,27 +11,35 @@
 		"disponibilite": ["400gr"],
 		"price": 22.00,
 		"price_details": ["1 écheveau : 22.00€", "4 écheveaux : frais de port offerts"],
-		"image": "mouton_portrait.jpg",
-		"images": ["mouton_portrait.jpg", "product_1.png","product_2.png", "product_3.png"],
+		"image": "PhotoRoom-20231230_124440.png",
+		"images": ["PhotoRoom-20231230_124440.png","PhotoRoom-20231230_124847.png", "PhotoRoom-20231230_123954.png"],
 		"fav": true,
-		"type": "pull",
+		"type": "écheveau",
 		"matieres": [
 			"laine"
 		],
-		"genders": ["children", "men"]
+		"genders": []
 	},
 	{
 		"id": 2,
-		"title": "titre 2",
-		"description":
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis commodi eaque ipsum rem, doloremque ut.",
-		"image": "sheep_2.jpg",
+		"title": "Écheveau 100gr",
+		"description": "Écheveaux de laine biologique teintée, production artisanale familiale.",
+		"description_long": "Ce lot de 5 écheveaux de laine biologique teintée (500g) est issu d'une production familiale artisanale et respectueuse de l'environnement. Chaque écheveau est délicatement teinté à la main avec des colorants naturels, créant des nuances uniques. Cette laine, douce et écologique, est parfaite pour les créations qui nécessitent qualité et engagement durable.",
+		"description_2": ["Écheveau 100gr", "Laine 2 brins 350m/100gr", "Aiguilles 3,5 à 4 et plus"],
+		"composition": ["40% brebis wensleydale", "40% brebis mérinos de bourgogne et arles", "20% lapins angora"],
+		"teintures": ["label GOTS 'Greener Shade',composition personnelle.( non reproductible)"],
+		"lavage": ["Lavage à la main", "Machine 20°c( programme laine),essorage 400 tours maxi,séchage à plat.lessive liquide type shampoings"],
+		"disponibilite": ["500gr"],
+		"price": 22.00,
+		"price_details": ["1 écheveau : 22.00€", "5 écheveaux : frais de port offerts"],
+		"image": "PhotoRoom-20231230_175151.png",
+		"images": ["PhotoRoom-20231230_175151.png","PhotoRoom-20231230_173530.png", "PhotoRoom-20231230_174625.png"],
 		"fav": true,
-		"type": "pull",
+		"type": "écheveau",
 		"matieres": [
-			"laine",
-			"coton"
-		]
+			"laine"
+		],
+		"genders": []
 	},
 	{
 		"id": 3,

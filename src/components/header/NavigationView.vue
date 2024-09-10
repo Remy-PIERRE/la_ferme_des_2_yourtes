@@ -28,6 +28,11 @@ const isMobileNavigationOpenedRef = ref(false);
 function toggleMobileNavigation() {
     isMobileNavigationOpenedRef.value = !isMobileNavigationOpenedRef.value;
 }
+
+// HANDLE LOGO //
+function handleLogoClick() {
+    router.push("/");
+}
 </script>
 
 <template>
@@ -36,12 +41,14 @@ function toggleMobileNavigation() {
             v-if="!isNavigationEffectOnRef"
             src="../../assets/images/ferme_logo.png"
             alt="logo"
-            class="header--logo"/>
+            class="header--logo"
+            @click="handleLogoClick"/>
         <img
             v-else
             src="../../assets/images/ferme_logo_white.png"
             alt="logo"
-            class="header--logo"/>
+            class="header--logo"
+            @click="handleLogoClick"/>
 
         <img
             v-if="!isNavigationEffectOnRef"
@@ -129,6 +136,7 @@ function toggleMobileNavigation() {
     height: 60px;
     width: auto;
     transition: opacity 0.4s;
+    cursor: pointer;
 }
 
 .mobile--menu--icon {

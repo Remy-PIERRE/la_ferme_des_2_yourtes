@@ -35,6 +35,11 @@ const props = defineProps(["title", "value"]);
             margin-bottom: 12px;
         }
 
+        ul {
+            position: relative;
+            left: 12px
+        }
+
         li {
             font-size: 1.4rem;
         }

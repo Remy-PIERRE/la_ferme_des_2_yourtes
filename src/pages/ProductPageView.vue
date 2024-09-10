@@ -15,25 +15,14 @@ const id = route.params;
 const product = productsStore.getters.getProductById(id);
 const othersProducts = productsStore.getters.getOthersProductsByCurrentId(id);
 
+// FORCE PAGE RELOAD WHEN SELECT OTHER PRODUCT //
 watch(route, (newId) => {
-    console.log("id : ", newId);
     location.reload();
-})
-
-console.log("product : ", product.id)
-
-// DEV //
-function cleanStorage() {
-    window/localStorage.setItem("products", "");
-    productsStore.dispatch("getDataAtStart");
-}
-
+});
 </script>
 
 <template>    
     <HeaderView />
-
-    <!-- <button @click="cleanStorage">clean data</button> -->
 
     <div class="wrapper">
         <PageTitleView :title="product.title" />
